@@ -12,6 +12,7 @@ use http\Url;
   	public static function nav()
   	{
   		require_once("Template/nav.php");
+  		require_once ("inicio/index.php");
   	}
     
   	public static function footer()
