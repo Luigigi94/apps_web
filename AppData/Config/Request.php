@@ -24,7 +24,7 @@ class Request
                     $this->metodo = "index";
                 $this->argumento = $ruta;
             }else {
-                $this->controlador = "empleado_bienvenido";
+                $this->controlador = "Home_Controller";
                 $this->metodo = "index";
             }
       }
