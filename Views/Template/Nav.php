@@ -1,39 +1,25 @@
-<nav class="navbar navbar-dark bg-dark">
-  <!-- Navbar content -->
-  <div class="">
-    <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <button class="nav-link active btn-outline-light" href="#">Memeteca</button>
-  </li>
-  <li class="nav-item dropdown">
-    <button class="nav-link dropdown-toggle btn-outline-light" style="margin-left:1em;" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">clasificacion</button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Ver</a>
-      <a class="dropdown-item" href="#">Acentar</a>
-      <a class="dropdown-item" href="#">Modificar</a>
-
-  </li>
-  <li class="nav-item dropdown">
-    <button class="nav-link dropdown-toggle btn-outline-light" style="margin-left:1em;" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">descarga</button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Asignar</a>
-
-
-  </li>
-  <li class="nav-item dropdown">
-    <button class="nav-link dropdown-toggle btn-outline-light" style="margin-left:1em;" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">subirmeme</button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Materia</a>
-      <a class="dropdown-item" href="#">Grupo</a>
-      <a class="dropdown-item" href="#">Aprobacion</a>
-
-  </li>
-    
-
-</ul>
-  </div>
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-  </form>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="<?php URL?>index.php">Memeteca</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php URL?>index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php URL?>about.php">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php URL?>post.php">Sample Post</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?php URL?>contact.php">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
